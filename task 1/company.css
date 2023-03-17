@@ -1,0 +1,200 @@
+body{
+    margin: 0%;
+    background: linear-gradient(to bottom right, rgb(133, 182, 197) ,rgb(164, 216, 216) , rgb(139, 190, 164));
+
+    font-size: 20px;
+}
+#first{
+    height: max-content;
+    
+}
+img{
+    opacity: 10;
+    filter: contrast(50000px);
+}
+#pgoi-img{
+    width: 250px;
+    height: 120px;
+    position: absolute;
+    top: 3.5vw;
+    margin-left: 42.5vw;
+}
+#anpas-img{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: 12.5vw;
+    margin-left: 44vw;
+}
+
+#register-img{
+    position: absolute;
+    left: 75vw;
+    top: 20vw;
+    width: 200px;
+    height: 120px;
+    transform: rotate(-20deg);
+}
+#hiring-img{
+    position: absolute;
+    top: 12vw;
+    width: 350px;
+    height: 350px;
+    left: 5vw;
+    transform: rotate(-20deg);
+    
+}
+
+
+
+#drive-tag, #batch-tag, #eligibility-tag,#present-tag,#register-tag{
+    position: relative;
+    margin-left: 44vw;
+    top: 11vw;
+    font-size: 34px;
+}
+#present-tag{
+    margin-left: 48.9vw;
+    top: 9.7vw;
+    font-size:medium;
+    text-decoration: underline;
+}
+#register-tag{
+    font-size: 20px;
+    margin-left: 47.5vw;
+    top: 15vw;
+    padding: 5px;
+    max-width: max-content;
+    border-radius: 5px;
+    text-decoration: none;
+    
+}
+#register-tag:hover{
+    animation: register 2s infinite linear alternate;
+}
+@keyframes register {
+    0%{
+        
+        box-shadow: 5px 0px 10px rgb(123, 199, 88);
+    }
+    25%{
+        
+        box-shadow: 0px -5px 10px rgb(123, 199, 88);
+    }
+    50%{
+       
+        box-shadow: -5px 0px 10px rgb(123, 199, 88);
+    }
+    100%{
+        
+        box-shadow: 0px 5px 10px rgb(123, 199, 88);
+    }
+    
+}
+#drive-tag{
+    background-image: linear-gradient(to right, rgb(245, 171, 171), rgb(225, 225, 142));
+    max-width: max-content;
+    transform: skewY(-5deg);
+    padding: 5px;
+    box-shadow: 10px 10px 10px  rgb(163, 137, 137);
+    border: none;
+    border-radius: 5px;
+}
+
+
+#batch-tag{
+    font-size: 20px;
+    margin-left: 47.65vw;
+    top: 10.5vw;
+    border: 2px solid rgb(162, 111, 111);
+    box-shadow: 10px 10px 10px  rgb(163, 137, 137);
+    max-width: max-content;
+    transform: skewY(-5deg);
+    padding: 5px;
+    border-radius: 20px;
+}
+
+#eligibility-tag{
+    font-size: 20px;
+    margin-left: 47.2vw;
+    top: 13vw;
+    padding: 5px;
+    border: 2px solid red;
+    max-width: max-content;
+    border-radius: 5px;
+    animation: btn-anim 2s linear infinite;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+@keyframes btn-anim {
+    0%{
+        
+        box-shadow: 5px 0px 10px rgb(163, 137, 137);
+    }
+    25%{
+        
+        box-shadow: 0px -5px 10px rgb(163, 137, 137);
+    }
+    50%{
+       
+        box-shadow: -5px 0px 10px rgb(163, 137, 137);
+    }
+    100%{
+        
+        box-shadow: 0px 5px 10px rgb(163, 137, 137);
+    }  
+
+  }
+
+#about{
+    margin-top: 19vw; 
+}
+#abt-head{
+    text-align: center;
+    margin-left: 4.5vw;
+}
+#abt-desc{
+    text-align: justify;
+    width: 900px;
+    font-size: 25px;
+    margin: auto;
+}
+#visit, #visit-link{
+    text-align: center;
+    width: 900px;
+    font-size: 25px;
+    margin: auto;
+    margin-top: 25px;
+    padding-left: 3vw;
+}
+
+.visit-link{
+    text-decoration: none;
+    padding-left: 1.7vw;
+}
+#visit-link:hover{
+    text-decoration: underline;
+}
+.drive-desc{
+    text-align: center;
+    width: 900px;
+    margin: auto;
+    margin-top: 25px;
+    padding-left: 3.4vw;
+}
+
+.desc-container{
+    margin-left: 20vw;
+}
+footer{
+    text-align: center;
+    padding-left: 3.5vw;
+}
+svg{
+    width: 25px;
+    height: 25px;
+    padding: 5px;
+}
